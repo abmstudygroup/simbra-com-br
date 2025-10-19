@@ -21,7 +21,7 @@ about:
       href: https://github.com/abmstudygroup/simbra-com-br
     - icon: bookmarks-fill
       text: ABM Study Group
-      href: https://www.abmstudygroup.org
+      href: https://abmstudygroup.org
     - icon: leaf-fill
       text: Sustentarea
       href: https://www.fsp.usp.br/sustentarea
