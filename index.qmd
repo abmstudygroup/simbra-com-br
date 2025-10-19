@@ -18,7 +18,7 @@ about:
       href: https://www.abmstudygroup.org
     - icon: leaf-fill
       text: Sustentarea
-      href: https://www.fsp.usp.br/sustentarea/
+      href: https://www.fsp.usp.br/sustentarea
 ---
 
 ```{r}
@@ -58,7 +58,7 @@ logos <- list(
   list(
     image = "images/sustentarea-logo.svg",
     height = "6rem",
-    url = "https://www.fsp.usp.br/sustentarea/",
+    url = "https://www.fsp.usp.br/sustentarea",
     alt = "Sustentarea",
     first = TRUE
   ),
