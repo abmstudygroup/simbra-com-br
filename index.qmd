@@ -4,7 +4,7 @@ image: images/simbra-symbol-circular.svg
 about:
   template: jolla
   id: jolla-heading
-  image-width: 22.5em
+  image-width: 47.5% # 22.5rem
   image-shape: round
   links:
     - icon: github
@@ -42,7 +42,7 @@ source(here("R", "_setup.R"))
 :::
 ::::
 
-::::{.quarto-about-jolla style="margin-top: -1rem;"}
+::::{.quarto-about-jolla .quarto-about-jolla-margin}
 ```{r, results='asis'}
 #| eval: true
 #| echo: false
