@@ -60,13 +60,20 @@ h1 {
   display: none;
 }
 
-@media (max-width: 575.98px) {
-  br.responsive-break {
-    display: none;
-  }
-
+@media (max-width: 990px) {
   .quarto-about-jolla-margin {
     margin-top: -2rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-image {
+    height: 80% !important;
+    width: 80% !important;
+  }
+
+  br.responsive-break {
+    display: none;
   }
 
   .nav-footer {

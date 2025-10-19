@@ -4,7 +4,7 @@ image: images/simbra-symbol-circular.svg
 about:
   template: jolla
   id: jolla-heading
-  image-width: 47.5% # 22.5rem
+  image-width: 22.5rem
   image-shape: round
   links:
     - icon: github
