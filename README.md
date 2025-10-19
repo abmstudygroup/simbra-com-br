@@ -8,7 +8,9 @@
 
 ## Overview
 
-This repository contains the source files of the _Simpósio Interdisciplinar Brasileiro de Modelos Baseados em Agentes_ (SIMBRA) (Brazilian Interdisciplinary Symposium on Agent-Based Models) website. It can be accessed [here](https://simbra.com.br).
+This repository contains the source files of the _Simpósio Interdisciplinar Brasileiro de Modelos Baseados em Agentes_ (SIMBRA) (Brazilian Interdisciplinary Symposium on Agent-Based Models) website.
+
+The website can be accessed [here](https://simbra.com.br).
 
 ## Usage
 
