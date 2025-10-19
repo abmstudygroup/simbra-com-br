@@ -21,10 +21,8 @@ website:
   repo-url: https://github.com/abmstudygroup/simbra-com-br/
   issue-url: https://github.com/abmstudygroup/simbra-com-br/issues/
   open-graph:
+    locale: pt_BR
     image: images/og-image.png
-    image-width: 2400
-    image-height: 1600
-    image-alt: SIMBRA | Simpósio Interdisciplinar Brasileiro de Modelos Baseados em Agentes
   repo-branch: main
   navbar: false
   sidebar: false
@@ -33,8 +31,8 @@ website:
 format:
   html:
     open-graph: true
-    locale: pt-BR
-    lang: pt-BR
+    locale: pt_BR
+    lang: pt_BR
     code-link: true
     code-fold: true
     tbl-cap-location: top
@@ -43,11 +41,5 @@ format:
     fig-align: center
     repo-actions: false
     theme: [default, brand, scss/styles.scss]
-    include-in-header:
-      text: |
-        <meta property="og:description" content="">
-        <meta property="og:image" content="images/og-image.png">
-        <meta property="og:image:height" content="2400">
-        <meta property="og:image:width" content="1600">
 
 bibliography: references.bib

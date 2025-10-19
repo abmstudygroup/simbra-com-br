@@ -6,11 +6,11 @@ library(here)
 
 # Add `og-image.png` to `./docs/images` -----
 
-file <- here("docs", "images", "og-image.png")
+# file <- here("docs", "images", "og-image.png")
 
-if (!file_exists(file)) {
-  file_copy(here("images", "og-image.png"), file, overwrite = TRUE)
-}
+# if (!file_exists(file)) {
+#   file_copy(here("images", "og-image.png"), file, overwrite = TRUE)
+# }
 
 # Check If the Script Ran Successfully -----
 
