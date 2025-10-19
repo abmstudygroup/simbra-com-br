@@ -53,7 +53,7 @@ source(here("R", "_setup.R"))
 #| eval: true
 #| echo: false
 
-tags$hr(class = "about-sep", style="width: 80%")
+tags$hr(class = "about-sep", style="width: 80%;")
 ```
 
 ::: {style="margin-top: -1.5rem;"}
