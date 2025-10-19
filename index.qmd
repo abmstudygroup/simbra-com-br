@@ -1,0 +1,165 @@
+---
+title: "SIMBRA"
+image: images/simbra-symbol-circular.svg
+about:
+  template: jolla
+  id: jolla-heading
+  image-width: 22.5em
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/abmstudygroup/simbra-com-br
+    - icon: envelope-fill
+      text: E-mail
+      href: mailto:oi@simbra.com.br
+    - icon: bookmarks-fill
+      text: ABM Study Group
+      href: https://www.abmstudygroup.org
+    - icon: leaf-fill
+      text: Sustentarea
+      href: https://www.fsp.usp.br/sustentarea/
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(here)
+library(htmltools)
+
+source(here("R", "_setup.R"))
+```
+
+::::{#jolla-heading}
+::: {style="font-size: 1.5rem; font-weight: 500; text-align: center;"}
+```{=html}
+<span style="display: inline-block;">
+  1.º Simpósio Interdisciplinar Brasileiro<br class="responsive-break">
+  de Modelos Baseados em Agentes
+</span>
+```
+:::
+::::
+
+::::{.quarto-about-jolla style="margin-top: -1rem;"}
+```{r, results='asis'}
+#| eval: true
+#| echo: false
+
+tags$hr(class = "about-sep", style="width: 80%")
+```
+
+::: {style="margin-top: -1.5rem;"}
+```{r}
+#| echo: false
+
+logos <- list(
+  list(
+    image = "images/sustentarea-logo.svg",
+    height = "6rem",
+    url = "https://www.fsp.usp.br/sustentarea/",
+    alt = "Sustentarea",
+    first = TRUE
+  ),
+  list(
+    image = "images/usp-fsp-logo.png",
+    height = "6rem",
+    url = "https://www.fsp.usp.br",
+    alt = "Faculty of Public Health"
+  ),
+  list(
+    image = "images/usp-each-logo.svg",
+    height = "4.5rem",
+    url = "https://www.each.usp.br",
+    alt = "School of Arts, Sciences and Humanities"
+  ),
+  list(
+    image = "images/usp-logo.svg",
+    height = "3rem",
+    url = "https://www.usp.br",
+    alt = "University of São Paulo"
+  ),
+  list(
+    image = "images/ufpi-logo.png",
+    height = "5rem",
+    url = "https://www.ufpi.br",
+    alt = "Federal University of Piauí"
+  ),
+  list(
+    image = "images/ufpr-logo.svg",
+    height = "5rem",
+    url = "https://ufpr.br/",
+    alt = "Federal University of Paraná"
+  ),
+  list(
+    image = "images/ipea-logo.svg",
+    height = "3.5rem",
+    url = "https://www.ipea.gov.br",
+    alt = "Instituto de Pesquisa Econômica Aplicada"
+  ),
+  list(
+    image = "images/qub-logo.svg",
+    height = "4rem",
+    url = "https://www.qub.ac.uk",
+    alt = "Queen's University Belfast"
+  ),
+  list(
+    image = "images/omf-logo.svg",
+    height = "2.5rem",
+    url = "https://www.openmodelingfoundation.org/",
+    alt = "Open Modeling Foundation"
+  ),
+  list(
+    image = "images/comses-net-logo.png",
+    height = "4.5rem",
+    url = "https://www.comses.net",
+    alt = "CoMSES Network"
+  ),
+  list(
+    image = "images/capes-logo.svg",
+    height = "5rem",
+    url = "https://www.capes.gov.br",
+    alt = "CAPES"
+  )
+  # list(
+  #   image = "images/fapesp-logo.svg",
+  #   height = "5rem",
+  #   url = "https://www.fapesp.br",
+  #   alt = "FAPESP"
+  # )
+)
+```
+
+```{r, results='asis'}
+#| echo: false
+
+div(
+  style = "text-align: center;",
+  logos |>
+    lapply(
+      function(i) {
+        tags$span(
+          tags$a(
+            href = i$url,
+            tags$img(
+              src = i$image,
+              alt = i$alt,
+              style = paste0("height: ", i$height, "; ")
+            ),
+          ),
+          style = paste0(
+            "display: inline-block; ",
+            "text-align: center; ",
+            "margin-top: 1.5rem; ",
+            ifelse(is.null(i$first), "margin-left: 1.5rem; ", "")
+          )
+        )
+      }
+    ) |>
+      tagList() |>
+      browsable()
+)
+```
+:::
+::::

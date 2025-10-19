@@ -1,0 +1,85 @@
+/*-- scss:defaults --*/
+
+$callout-color-note: #183eff;
+$callout-color-tip: #00d000;
+$callout-color-caution: #ff0000;
+$callout-color-warning: #ffd000;
+$callout-color-important: #ff0000;
+
+/*-- scss:rules --*/
+
+/* Additional Google Fonts ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Body ----- */
+
+body {
+  color: $brand-black;
+}
+
+/* Headings ----- */
+
+h1 {
+  font-size: 4rem;
+}
+
+/* Colors ----- */
+
+.brand-green {
+  color: $brand-green;
+}
+
+.brand-yellow {
+  color: $brand-yellow;
+}
+
+.brand-blue {
+  color: $brand-blue;
+}
+
+.brand-red {
+  color: $brand-red;
+}
+
+.brand-gray {
+  color: $brand-gray;
+}
+
+.brand-black {
+  color: $brand-black;
+}
+
+/* Others ----- */
+
+@media (max-width: 575.98px) {
+  br.responsive-break {
+    display: none;
+  }
+
+  .nav-footer {
+    min-height: 1em;
+  }
+
+  .nav-footer-center {
+    margin-top: 0em;
+    min-height: 1em;
+  }
+}
+
+.nav-footer-left {
+  display: none;
+}
+
+.nav-footer-right {
+  display: none;
+}
+
+hr {
+  width: 80%;
+  margin: 2rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}

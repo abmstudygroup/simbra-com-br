@@ -1,0 +1,53 @@
+editor: source
+
+execute:
+  cache: false
+  freeze: false
+
+project:
+  type: website
+  output-dir: docs
+  post-render: "R/_post-render.R"
+
+# title: "SIMBRA | Brazilian Interdisciplinary Symposium on Agent-Based Models"
+title: "SIMBRA | Simpósio Interdisciplinar Brasileiro de Modelos Baseados em Agentes"
+keyword: >
+  Science Symposium. Interdisciplinary. Agent-Based Models. Complex Systems.
+  Complexity Science. Simulations.
+
+website:
+  favicon: images/favicon.svg
+  site-url: https://abmstudygroup.github.io/simbra-com-br/
+  repo-url: https://github.com/abmstudygroup/simbra-com-br/
+  issue-url: https://github.com/abmstudygroup/simbra-com-br/issues/
+  open-graph:
+    image: images/og-image.png
+    image-width: 2400
+    image-height: 1600
+    image-alt: SIMBRA | Simpósio Interdisciplinar Brasileiro de Modelos Baseados em Agentes
+  repo-branch: main
+  navbar: false
+  sidebar: false
+  page-footer: "Copyright 2025, ABM Study Group"
+
+format:
+  html:
+    open-graph: true
+    locale: pt-BR
+    lang: pt-BR
+    code-link: true
+    code-fold: true
+    tbl-cap-location: top
+    callout-appearance: simple
+    csl: csl/english-apa-author-date.csl
+    fig-align: center
+    repo-actions: false
+    theme: [default, brand, scss/styles.scss]
+    include-in-header:
+      text: |
+        <meta property="og:description" content="">
+        <meta property="og:image" content="images/og-image.png">
+        <meta property="og:image:height" content="2400">
+        <meta property="og:image:width" content="1600">
+
+bibliography: references.bib

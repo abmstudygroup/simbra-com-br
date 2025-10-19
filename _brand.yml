@@ -1,0 +1,63 @@
+meta:
+  name:
+    short: "SIMBRA"
+    # Brazilian Interdisciplinary Symposium on Agent-Based Models
+    long: "Simpósio Interdisciplinar Brasileiro de Modelos Baseados em Agentes"
+  link:
+    home: https://www.simbra.com.br
+  description: |
+    Um espaço de encontro entre pesquisadores e estudantes de diferentes áreas
+    para discutir, experimentar e difundir o uso dos Modelos Baseados em
+    Agentes (ABM) como ferramenta de modelagem e investigação de fenômenos
+    complexos.
+
+color:
+  palette:
+    white: "#ffffff"
+    black: "#000000"
+    green: "#00d000"
+    yellow: "#ffd000"
+    blue: "#183eff"
+    red: "#ff0000"
+    gray: "#3c3c3c"
+    dark-green: "#009e2e"
+    dark-gray: "#3c3c3c"
+    light-gray: "#d7d7d7"
+  background: white
+  primary: green
+  secondary: yellow
+  tertiary: blue
+  success: blue
+  info: blue
+  warning: yellow
+  danger: red
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Montserrat
+      source: google
+    - family: Source Code Pro
+      source: google
+  base:
+    family: Montserrat
+    line-height: 1.5
+    weight: normal
+  headings:
+    color: black
+    family: Montserrat
+    weight: 900
+  link:
+    color: blue
+    decoration: none
+  monospace:
+    family: Source Code Pro
+    size: 1em
+  monospace-inline:
+    family: Source Code Pro
+    color: purple
+    background-color: light-gray
+  monospace-block:
+    family: Source Code Pro
+    background-color: light-gray
