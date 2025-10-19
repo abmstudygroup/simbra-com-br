@@ -56,7 +56,7 @@ source(here("R", "_setup.R"))
 tags$hr(class = "about-sep")
 ```
 
-[**Apoio**]{style="font-size: 1.25rem;"}
+[**Apoio** (Em Construção)]{style="font-size: 1.25rem;"}
 
 ::: {style="margin-top: -1.5rem;"}
 ```{r}
@@ -74,49 +74,61 @@ logos <- list(
     image = "images/usp-fsp-logo.png",
     height = "6rem",
     url = "https://www.fsp.usp.br",
-    alt = "Faculty of Public Health"
+    alt = "Faculdade de Saúde Pública (FSP)"
   ),
   list(
     image = "images/usp-each-logo.svg",
     height = "4.5rem",
     url = "https://www.each.usp.br",
-    alt = "School of Arts, Sciences and Humanities"
+    alt = "Escola de Artes, Ciências e Humanidades (EACH)"
+  ),
+  list(
+    image = "images/usp-icmc-logo.svg",
+    height = "5rem",
+    url = "https://www.icmc.usp.br",
+    alt = "Instituto de Ciências Matemáticas e de Computação (ICMC)"
+  ),
+  list(
+    image = "images/usp-mae-logo.svg",
+    height = "4rem",
+    url = "https://mae.usp.br",
+    alt = "Museu de Arqueologia e Etnologia (MAE)"
   ),
   list(
     image = "images/usp-logo.svg",
     height = "3rem",
     url = "https://www.usp.br",
-    alt = "University of São Paulo"
+    alt = "Universidade de São Paulo (USP)"
   ),
   list(
     image = "images/ufpi-logo.png",
     height = "5rem",
     url = "https://www.ufpi.br",
-    alt = "Federal University of Piauí"
+    alt = "Universidade Federal do Piauí (UFPI)"
   ),
   list(
     image = "images/ufpr-logo.svg",
     height = "5rem",
     url = "https://ufpr.br/",
-    alt = "Federal University of Paraná"
+    alt = "Universidade Federal do Paraná (UFPR)"
   ),
   list(
     image = "images/ipea-logo.svg",
     height = "3.5rem",
     url = "https://www.ipea.gov.br",
-    alt = "Instituto de Pesquisa Econômica Aplicada"
+    alt = "Instituto de Pesquisa Econômica Aplicada (IPEA)"
   ),
   list(
     image = "images/qub-logo.svg",
     height = "4rem",
     url = "https://www.qub.ac.uk",
-    alt = "Queen's University Belfast"
+    alt = "Queen's University Belfast (QUB)"
   ),
   list(
     image = "images/omf-logo.svg",
     height = "2.5rem",
     url = "https://www.openmodelingfoundation.org/",
-    alt = "Open Modeling Foundation"
+    alt = "Open Modeling Foundation (OMF)"
   ),
   list(
     image = "images/comses-net-logo.png",
@@ -128,7 +140,7 @@ logos <- list(
     image = "images/capes-logo.svg",
     height = "5rem",
     url = "https://www.capes.gov.br",
-    alt = "CAPES"
+    alt = "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)"
   )
   # list(
   #   image = "images/fapesp-logo.svg",
