@@ -7,12 +7,18 @@ about:
   image-width: 22.5rem
   image-shape: round
   links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/abmstudygroup/simbra-com-br
+    - icon: people-fill
+      text: Sobre o Evento
+      href: https://sobre.simbra.com.br
+    - icon: calendar-event-fill
+      text: Programa
+      href: https://programa.simbra.com.br
     - icon: envelope-fill
       text: E-mail
       href: mailto:oi@simbra.com.br
+    - icon: github
+      text: GitHub
+      href: https://github.com/abmstudygroup/simbra-com-br
     - icon: bookmarks-fill
       text: ABM Study Group
       href: https://www.abmstudygroup.org
