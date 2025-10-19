@@ -52,6 +52,10 @@ h1 {
 
 /* Others ----- */
 
+.description {
+  display: none;
+}
+
 @media (max-width: 575.98px) {
   br.responsive-break {
     display: none;
