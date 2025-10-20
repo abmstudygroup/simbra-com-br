@@ -15,21 +15,21 @@ about:
       text: Programa
       href: https://programa.simbra.com.br
       target: _blank
-    - icon: envelope-fill
-      text: E-mail
-      href: mailto:oi@simbra.com.br
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/simbra_org/
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/company/simbra-org
       target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/abmstudygroup/simbra-com-br
       target: _blank
-    - icon: bookmarks-fill
-      text: ABM Study Group
-      href: https://abmstudygroup.org
-      target: _blank
-    - icon: leaf-fill
-      text: Sustentarea
-      href: https://www.fsp.usp.br/sustentarea
+    - icon: envelope-fill
+      text: E-mail
+      href: mailto:oi@simbra.com.br
       target: _blank
 ---
 
