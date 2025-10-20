@@ -124,12 +124,12 @@ logos <- list(
   #   url = "https://www.ipea.gov.br",
   #   alt = "Instituto de Pesquisa Econômica Aplicada (IPEA)"
   # ),
-  list(
-    image = "images/qub-logo.svg",
-    height = "4rem",
-    url = "https://www.qub.ac.uk",
-    alt = "Queen's University Belfast (QUB)"
-  ),
+  # list(
+  #   image = "images/qub-logo.svg",
+  #   height = "4rem",
+  #   url = "https://www.qub.ac.uk",
+  #   alt = "Queen's University Belfast (QUB)"
+  # ),
   list(
     image = "images/omf-logo.svg",
     height = "2.5rem",
