@@ -104,27 +104,27 @@ ul.task-list li input[type="checkbox"] {
 </div> 
   <hr class="about-sep">
    <div class="about-links">
-  <a href="https://sobre.simbra.com.br" class="about-link" rel="" target="">
+  <a href="https://sobre.simbra.com.br" class="about-link" rel="" target="_blank">
     <i class="bi bi-people-fill"></i>
      <span class="about-link-text">Sobre o Evento</span>
   </a>
-  <a href="https://programa.simbra.com.br" class="about-link" rel="" target="">
+  <a href="https://programa.simbra.com.br" class="about-link" rel="" target="_blank">
     <i class="bi bi-calendar-event-fill"></i>
      <span class="about-link-text">Programa</span>
   </a>
-  <a href="mailto:oi@simbra.com.br" class="about-link" rel="" target="">
+  <a href="mailto:oi@simbra.com.br" class="about-link" rel="" target="_blank">
     <i class="bi bi-envelope-fill"></i>
      <span class="about-link-text">E-mail</span>
   </a>
-  <a href="https://github.com/abmstudygroup/simbra-com-br" class="about-link" rel="" target="">
+  <a href="https://github.com/abmstudygroup/simbra-com-br" class="about-link" rel="" target="_blank">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitHub</span>
   </a>
-  <a href="https://abmstudygroup.org" class="about-link" rel="" target="">
+  <a href="https://abmstudygroup.org" class="about-link" rel="" target="_blank">
     <i class="bi bi-bookmarks-fill"></i>
      <span class="about-link-text">ABM Study Group</span>
   </a>
-  <a href="https://www.fsp.usp.br/sustentarea" class="about-link" rel="" target="">
+  <a href="https://www.fsp.usp.br/sustentarea" class="about-link" rel="" target="_blank">
     <i class="bi bi-leaf-fill"></i>
      <span class="about-link-text">Sustentarea</span>
   </a>
@@ -251,6 +251,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

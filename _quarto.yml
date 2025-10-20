@@ -45,6 +45,7 @@ format:
     csl: csl/english-apa-author-date.csl
     fig-align: center
     repo-actions: false
+    link-external-newwindow: true
     theme: [default, brand, scss/styles.scss]
     include-in-header:
       text: |

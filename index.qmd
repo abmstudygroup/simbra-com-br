@@ -10,21 +10,27 @@ about:
     - icon: people-fill
       text: Sobre o Evento
       href: https://sobre.simbra.com.br
+      target: _blank
     - icon: calendar-event-fill
       text: Programa
       href: https://programa.simbra.com.br
+      target: _blank
     - icon: envelope-fill
       text: E-mail
       href: mailto:oi@simbra.com.br
+      target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/abmstudygroup/simbra-com-br
+      target: _blank
     - icon: bookmarks-fill
       text: ABM Study Group
       href: https://abmstudygroup.org
+      target: _blank
     - icon: leaf-fill
       text: Sustentarea
       href: https://www.fsp.usp.br/sustentarea
+      target: _blank
 ---
 
 ```{r}
