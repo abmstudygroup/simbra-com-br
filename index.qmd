@@ -106,12 +106,12 @@ logos <- list(
     url = "https://www.usp.br",
     alt = "Universidade de São Paulo (USP)"
   ),
-  # list(
-  #   image = "images/ufpi-logo.png",
-  #   height = "5rem",
-  #   url = "https://www.ufpi.br",
-  #   alt = "Universidade Federal do Piauí (UFPI)"
-  # ),
+  list(
+    image = "images/ufpi-logo.png",
+    height = "5rem",
+    url = "https://www.ufpi.br",
+    alt = "Universidade Federal do Piauí (UFPI)"
+  ),
   # list(
   #   image = "images/ufpr-logo.svg",
   #   height = "5rem",
