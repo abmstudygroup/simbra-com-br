@@ -62,7 +62,7 @@ source(here("R", "_setup.R"))
 tags$hr(class = "about-sep")
 ```
 
-[**Apoio** (Em Construção)]{style="font-size: 1.25rem;"}
+[**Apoio**]{style="font-size: 1.25rem;"}
 
 ::: {style="margin-top: -1.5rem;"}
 ```{r}
