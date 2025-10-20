@@ -82,42 +82,42 @@ logos <- list(
     url = "https://www.each.usp.br",
     alt = "Escola de Artes, Ciências e Humanidades (EACH)"
   ),
-  list(
-    image = "images/usp-icmc-logo.svg",
-    height = "5rem",
-    url = "https://www.icmc.usp.br",
-    alt = "Instituto de Ciências Matemáticas e de Computação (ICMC)"
-  ),
-  list(
-    image = "images/usp-mae-logo.svg",
-    height = "4rem",
-    url = "https://mae.usp.br",
-    alt = "Museu de Arqueologia e Etnologia (MAE)"
-  ),
+  # list(
+  #   image = "images/usp-icmc-logo.svg",
+  #   height = "5rem",
+  #   url = "https://www.icmc.usp.br",
+  #   alt = "Instituto de Ciências Matemáticas e de Computação (ICMC)"
+  # ),
+  # list(
+  #   image = "images/usp-mae-logo.svg",
+  #   height = "4rem",
+  #   url = "https://mae.usp.br",
+  #   alt = "Museu de Arqueologia e Etnologia (MAE)"
+  # ),
   list(
     image = "images/usp-logo.svg",
     height = "3rem",
     url = "https://www.usp.br",
     alt = "Universidade de São Paulo (USP)"
   ),
-  list(
-    image = "images/ufpi-logo.png",
-    height = "5rem",
-    url = "https://www.ufpi.br",
-    alt = "Universidade Federal do Piauí (UFPI)"
-  ),
-  list(
-    image = "images/ufpr-logo.svg",
-    height = "5rem",
-    url = "https://ufpr.br/",
-    alt = "Universidade Federal do Paraná (UFPR)"
-  ),
-  list(
-    image = "images/ipea-logo.svg",
-    height = "3.5rem",
-    url = "https://www.ipea.gov.br",
-    alt = "Instituto de Pesquisa Econômica Aplicada (IPEA)"
-  ),
+  # list(
+  #   image = "images/ufpi-logo.png",
+  #   height = "5rem",
+  #   url = "https://www.ufpi.br",
+  #   alt = "Universidade Federal do Piauí (UFPI)"
+  # ),
+  # list(
+  #   image = "images/ufpr-logo.svg",
+  #   height = "5rem",
+  #   url = "https://ufpr.br/",
+  #   alt = "Universidade Federal do Paraná (UFPR)"
+  # ),
+  # list(
+  #   image = "images/ipea-logo.svg",
+  #   height = "3.5rem",
+  #   url = "https://www.ipea.gov.br",
+  #   alt = "Instituto de Pesquisa Econômica Aplicada (IPEA)"
+  # ),
   list(
     image = "images/qub-logo.svg",
     height = "4rem",
@@ -135,13 +135,13 @@ logos <- list(
     height = "4.5rem",
     url = "https://www.comses.net",
     alt = "CoMSES Network"
-  ),
-  list(
-    image = "images/capes-logo.svg",
-    height = "5rem",
-    url = "https://www.capes.gov.br",
-    alt = "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)"
   )
+  # list(
+  #   image = "images/capes-logo.svg",
+  #   height = "5rem",
+  #   url = "https://www.capes.gov.br",
+  #   alt = "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)"
+  # ),
   # list(
   #   image = "images/fapesp-logo.svg",
   #   height = "5rem",
