@@ -77,6 +77,13 @@ logos <- list(
     first = TRUE
   ),
   list(
+    image = "images/inct-logo.svg",
+    height = "5.5rem",
+    url = "https://www.fsp.usp.br/inct-combate-a-fome",
+    alt = "INCT Combate à Fome",
+    first = TRUE
+  ),
+  list(
     image = "images/usp-fsp-logo.png",
     height = "6rem",
     url = "https://www.fsp.usp.br",
@@ -126,7 +133,7 @@ logos <- list(
   # ),
   list(
     image = "images/qub-logo.svg",
-    height = "4.5rem",
+    height = "4rem",
     url = "https://www.qub.ac.uk",
     alt = "Queen's University Belfast (QUB)"
   ),
