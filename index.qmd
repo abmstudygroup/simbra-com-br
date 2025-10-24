@@ -125,6 +125,12 @@ logos <- list(
     url = "https://www.ufpi.br",
     alt = "Universidade Federal do Piauí (UFPI)"
   ),
+  list(
+    image = "images/resiclima-logo.svg",
+    height = "7rem",
+    url = "https://resiclima.com.br",
+    alt = "Rede Resiclima"
+  ),
   # list(
   #   image = "images/ufpr-logo.svg",
   #   height = "5rem",
