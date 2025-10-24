@@ -95,6 +95,12 @@ logos <- list(
     url = "https://www.each.usp.br",
     alt = "Escola de Artes, Ciências e Humanidades (EACH)"
   ),
+  list(
+    image = "images/usp-iee-logo.png",
+    height = "7rem",
+    url = "https://www.each.usp.br",
+    alt = "Instituto de Energia e Ambiente (IEE)"
+  ),
   # list(
   #   image = "images/usp-icmc-logo.svg",
   #   height = "5rem",
