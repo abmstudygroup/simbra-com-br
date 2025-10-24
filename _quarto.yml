@@ -31,7 +31,7 @@ website:
   repo-branch: main
   navbar: false
   sidebar: false
-  page-footer: "Copyright 2025, ABM Study Group"
+  # page-footer: "Copyright 2025, ABM Study Group"
 
 format:
   html:
