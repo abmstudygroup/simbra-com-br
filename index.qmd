@@ -15,6 +15,10 @@ about:
       text: Programa
       href: https://programa.simbra.com.br
       target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/abmstudygroup/simbra-com-br
+      target: _blank
     - icon: instagram
       text: Instagram
       href: https://www.instagram.com/simbra_org/
@@ -22,10 +26,6 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/company/simbra-org
-      target: _blank
-    - icon: github
-      text: GitHub
-      href: https://github.com/abmstudygroup/simbra-com-br
       target: _blank
     - icon: envelope-fill
       text: E-mail
@@ -107,6 +107,15 @@ logos <- list(
   #   url = "https://www.icmc.usp.br",
   #   alt = "Instituto de Ciências Matemáticas e de Computação (ICMC)"
   # ),
+  list(
+    image = "images/usp-mae-levoc-logo.svg",
+    height = "5rem",
+    url = "https://mae.usp.br/levoc/",
+    alt = paste0(
+      "Laboratório Interdisciplinar de Pesquisas em Evolução, ",
+      "Cultura e Meio Ambiente (LEVOC)"
+    )
+  ),
   # list(
   #   image = "images/usp-mae-logo.svg",
   #   height = "4rem",
