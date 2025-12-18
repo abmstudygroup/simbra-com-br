@@ -34,7 +34,7 @@ about:
 ---
 
 ```{r}
-#| label: setup
+#| label: Setup
 #| include: false
 
 library(here)
@@ -55,8 +55,9 @@ source(here("R", "_setup.R"))
 ::::
 
 ::::{.quarto-about-jolla .quarto-about-jolla-margin}
-```{r, results='asis'}
+```{r}
 #| eval: true
+#| output: asis
 #| echo: false
 
 tags$hr(class = "about-sep")
@@ -115,6 +116,12 @@ logos <- list(
       "Laboratório Interdisciplinar de Pesquisas em Evolução, ",
       "Cultura e Meio Ambiente (LEVOC)"
     )
+  ),
+  list(
+    image = "images/usp-lapomed-logo.png",
+    height = "6.5rem",
+    url = "#",
+    alt = "Laboratório de Pesquisa no Oriente Médio"
   ),
   # list(
   #   image = "images/usp-mae-logo.svg",
@@ -185,8 +192,9 @@ logos <- list(
 )
 ```
 
-```{r, results='asis'}
+```{r}
 #| echo: false
+#| output: asis
 
 div(
   style = "text-align: center;",
